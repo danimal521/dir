@@ -1,0 +1,12 @@
+class Employee {
+    firstName: string;
+    lastName: string;
+ 
+    constructor() 
+    {
+        this.firstName = "";
+        this.lastName = "";
+    }
+  }
+
+  export default Employee
