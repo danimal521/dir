@@ -37,7 +37,10 @@ namespace Backend
 
                 m_sqlClient.Close();
             }
-            catch (Exception exError) { }
+            catch (Exception exError) 
+            {
+                string strError                                         = exError.Message;
+            }
 
             return rEmployee;
         }    
