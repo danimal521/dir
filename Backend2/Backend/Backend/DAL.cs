@@ -29,8 +29,8 @@ namespace Backend
 
                     foreach (DataRow dr in ds.Tables[0].Rows)
                     {
-                        rEmployee.FirstName                             = dr[1].ToString();
-                        rEmployee.LastName                              = dr[2].ToString();
+                        //rEmployee.FirstName                             = dr[1].ToString();
+                        //rEmployee.LastName                              = dr[2].ToString();
                         break;                        
                     }
                 }
